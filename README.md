@@ -1,4 +1,10 @@
-If you have a csv dump of a domain from NTDS.nit using secretsdump.py from impacket for instance. Simple open your csv and add the following to the first line:
+If you have a dump of a domain from NTDS.nit using secretsdump.py from impacket for instance. 
+
+Copy and paste the output to Excel, then use Excel's Data>Text to Columns > set the delimiter to a full colon, and press enter to completion.
+
+Save the file as a csv.
+
+Open your csv and add the following to the first line:
 ```csv
 Domain,UserName,LMHash,NTHash
 ```
