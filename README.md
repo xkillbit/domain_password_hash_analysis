@@ -1,4 +1,4 @@
-If you have a dump of a domain or multiple domains from NTDS.nit using secretsdump.py from impacket for instance. You can combine them by copy and pasting the output to Excel, then use Excel's Data>Text to Columns > set the delimiter to a full colon, and press enter to completion.
+If you have a dump of a domain or multiple domains from NTDS.nit using secretsdump.py from impacket. You can combine them by copy and pasting the output to Excel, then use Excel's Data>Text to Columns > set the delimiter to a full colon, and press enter to completion.
 
 Save the file as a csv.
 
